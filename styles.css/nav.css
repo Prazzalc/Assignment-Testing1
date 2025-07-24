@@ -195,3 +195,40 @@ nav img {
 .feedback-text {
     font-size: 15px;
 }
+
+/* focus section style */
+
+.focus {
+    width: 1140px;
+    height: 650px;
+    margin: 137px auto;
+    padding: 70px 150px;
+    text-align: center;
+    align-items: center;
+     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.focus img {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.focus h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+
+.focus button {
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
