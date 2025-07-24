@@ -97,7 +97,7 @@ nav img {
 
 .productive-user {
     width: 1140px;
-    height: 250px;
+    height: 300px;
     text-align: center;
     margin: 137px auto;
     background-color: rgba(78, 71, 255, 0.1);
@@ -108,13 +108,16 @@ nav img {
 .productive-user h3 {
     font-weight: bold;
     font-size: 38px;
-    margin-top: 0%;
+    margin-bottom: 0;
 }
 
 .productive-container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+}
+
+.productive-container h1 {
+    margin-top: 40px;
 }
 
 .data-title {
