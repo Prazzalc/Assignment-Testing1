@@ -32,6 +32,11 @@
     border-style: none;
 }
 
+
+.bg-color {
+    background-color: #F5F8FF;
+}
+
  /* header style */
 
  header {
@@ -131,4 +136,32 @@ nav img {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
+}
+
+
+/* feedback style */
+
+
+.user-feedback {
+    width: 1140px;
+    height: 350px;
+    align-items: center;
+    margin: 137px auto;
+}
+
+.user-feedback h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feedback-info {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
 }
