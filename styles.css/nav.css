@@ -232,3 +232,19 @@ nav img {
     font-weight: 500;
 
 }
+
+
+/* contact section style */
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 700px;
+    margin: 90px auto;
+}
+
+.contact-us h1 {
+    font-weight: bold;
+    font-size: 97px;
+}
