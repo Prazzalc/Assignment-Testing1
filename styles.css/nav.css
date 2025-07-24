@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* background image */
 .bg-img {
     background-image: url(../Assets/Hero-bg.png);
@@ -13,7 +19,7 @@
 /* shared styles */
 
 .primary-color {
-    background-color: #4E47FF;
+    color: #4E47FF;
 }
 
 .primary-btn {
@@ -86,3 +92,40 @@ nav img {
     color: rgba(37, 36, 50, 0.5);
 }
 
+
+/* productive-user style */
+
+.productive-user {
+    width: 1140px;
+    height: 250px;
+    text-align: center;
+    margin: 137px auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 140px;
+}
+
+.productive-user h3 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 0%;
+}
+
+.productive-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.data-title {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.data-sub {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
