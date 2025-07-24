@@ -239,12 +239,28 @@ nav img {
 .contact-us {
     display: flex;
     justify-content: space-between;
+    gap: 115px;
     width: 1140px;
     height: 700px;
     margin: 90px auto;
+    align-items: center;
 }
 
 .contact-us h1 {
     font-weight: bold;
     font-size: 97px;
+}
+
+form{
+    width: 500px;
+    height: 500px;
+}
+
+form input,textarea{
+    border-style: none;
+}
+
+.form-title {
+    font-weight: 500;
+    font-size: 18px;
 }
