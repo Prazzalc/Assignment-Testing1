@@ -58,3 +58,31 @@ nav img {
 .banner-content h1 {
     font-size: 65px;
 }
+
+
+/* action style */
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+    align-items: center;
+}
+
+.action-section img {
+    border-radius: 50px;
+}
+
+.action-content h3 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+
+.action-content p {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
