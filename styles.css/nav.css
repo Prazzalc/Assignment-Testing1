@@ -164,4 +164,34 @@ nav img {
 .feedback-info {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 14px;
+    padding: 20px;
+}
+
+.reviewer-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.reviewer-info img {
+    border-radius: 50%;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.review-date {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.feedback-title {
+    margin-bottom: 0;
+}
+
+.feedback-text {
+    font-size: 15px;
 }
