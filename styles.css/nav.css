@@ -251,14 +251,28 @@ nav img {
     font-size: 97px;
 }
 
-form{
+form input[type="text"], form input[type="email"]{
     width: 500px;
-    height: 500px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+
 }
 
-form input,textarea{
-    border-style: none;
+form textarea {
+    width: 500px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
 }
+
+form input::placeholder {
+    font-size: 20px;
+}
+
+/* form input,textarea{
+    border-style: none;
+} */
 
 .form-title {
     font-weight: 500;
