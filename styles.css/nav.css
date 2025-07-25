@@ -242,6 +242,7 @@ nav img {
     gap: 115px;
     width: 1140px;
     height: 700px;
+    padding: 70px 0 70px 0;
     margin: 90px auto;
     align-items: center;
 }
@@ -251,30 +252,74 @@ nav img {
     font-size: 97px;
 }
 
-form input[type="text"], form input[type="email"]{
+form {
     width: 500px;
+    height: 500px;
+}
+
+form input[type="text"], form input[type="email"]{
+    width: 100%;
     height: 70px;
     border: none;
     border-radius: 10px;
+    padding-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
 form textarea {
-    width: 500px;
+    width: 100%;
+    height: 135px;
     border: none;
+    border-radius: 10px;
     font-size: 20px;
-    align-items: center;
+    padding-left: 32px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 form input::placeholder {
     font-size: 20px;
 }
 
-/* form input,textarea{
-    border-style: none;
-} */
+form input[type="button"] {
+    width: 535px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 200px;
+}
 
 .form-title {
     font-weight: 500;
     font-size: 18px;
 }
+
+
+/* footer style */
+.footer-bg {
+    background-color: white;
+}
+
+
+.footer-container {
+    text-align: center;
+    padding: 104px 455px;
+}
+
+footer img {
+    width: 175px;
+    height: 100%;
+}
+
+footer p {
+    color: #8987A1;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8987A1;
+    margin-right: 50px;
+}
+
